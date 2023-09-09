@@ -1,7 +1,7 @@
 # Weisberglab_Utils
 Set of commonly used scripts during various analysis
 
-## summarize_ti_type
+## Summarize ti type
 ### What it does:
 Go to a beav output folder, read `*oncogenic_plasmid_final.out` file, and extract plasmid type. Return `NA` if not available.
 
