@@ -8,7 +8,7 @@ Go to a beav output folder, read `*oncogenic_plasmid_final.out` file, and extrac
 ### Usage
 `find_plasmid_type.py path/to/beav/**oncogenic_plasmid_final.out`
 
-`summarize_ti_type/summarize_ti_plasmid.sh` is bash wrapper that use this script to mine plasmid types from a bunch of beav output folders:
+`summarize_ti_type/summarize_ti_plasmid.sh` is bash wrapper that use this script to mine plasmid types from a bunch of beav output folders. This assumes the *fna files, based on which beav sub-directories is generated, are in the same directory:
 
 `./summarize_ti_plasmid.sh > plasmid_type.out`
 
