@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for fasta in ../../*fna
+for fasta in *fna
 do
         infile=`echo -e "$fasta" | sed 's/.fna//g'`
         label=`echo -e "$infile" | sed 's/..\///g'`
