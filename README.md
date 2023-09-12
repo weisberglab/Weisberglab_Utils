@@ -12,8 +12,8 @@ Go to a beav output folder, read `*oncogenic_plasmid_final.out` file, and extrac
 
 `./summarize_ti_plasmid.sh > plasmid_type.out`
 
-## summarize_sketch.sh
-For a set of sketches produced by the BBSketch program, this script will report the top hits for all sketches and write the output as a tsv file. 
+## summarize sketch
+Run BBsketch on raw fastq files. For a set of sketches produced by the BBSketch program, this script will report the top hits for all sketches and write the output as a tsv file. 
 
 
 ## Assembly stat
